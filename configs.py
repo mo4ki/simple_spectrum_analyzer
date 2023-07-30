@@ -8,9 +8,9 @@ wave_xlim = (0, chunk)
 wave_ylim = (-35000, 35000)
 
 # для меня это - оптимальные значения
-frequencies_xlim = (0, chunk//2.7)
-frequencies_ylim = (0, 60000)
+frequencies_xlim = (0, chunk//2.6)
+frequencies_ylim = (0, 90000)
 
 # множители для сглаживания
-fft_filter_multiplayer = 7
-wave_filter_multiplayer = 2
+fft_filter_multiplayer = 7 * 10
+wave_filter_multiplayer = 4 * 10
